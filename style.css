@@ -1,0 +1,48 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+table{
+    position: relative;
+    /*top: 50px;
+    left:50px;*/
+    border-spacing: 0;
+    outline:1px solid white;
+    box-sizing: border-box;
+}
+.field__deleteButton{
+	background:#af0100 !important;
+	visibility: hidden;
+}
+td{
+    border: 1px solid white;
+}
+td,.field__addButton,.field__deleteButton{
+    width:50px;
+    height:50px;
+    background: #4cabe3;
+    position: relative;
+}
+button{
+    border:none;
+    font-size: 30px;
+    color:white;
+    position: absolute !important;
+}
+.field__addButton{
+    background: #f0a41b;
+    border:none;
+}
+.field__deleteButton:hover{
+    background: #c84d4c !important;
+    visibility: visible;
+}
+.field__addButton:hover{
+    background: #f5bf5c !important;
+}
+.field {
+  position: relative;
+  display: inline-block;
+  margin:55px 0 0 55px;
+  outline: 2px solid #4cabe3;
+}
